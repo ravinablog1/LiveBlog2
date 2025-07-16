@@ -1,0 +1,69 @@
+version: '3.8'
+services:
+  # User Service
+  user-service:
+    build: ./user-service
+    ports:
+      - "8001:8000"
+    environment:
+      - DATABASE_URL=postgresql://user:pass@user-db:5432/userdb
+    depends_on:
+      - user-db
+      - redis
+
+  # LiveBlog Service  
+  liveblog-service:
+    build: ./liveblog-service
+    ports:
+      - "8002:8000"
+    environment:
+      - DATABASE_URL=postgresql://user:pass@liveblog-db:5432/liveblogdb
+    depends_on:
+      - liveblog-db
+      - redis
+
+  # Notification Service
+  notification-service:
+    build: ./notification-service
+    ports:
+      - "8003:8000"
+    depends_on:
+      - redis
+      - rabbitmq
+
+  # API Gateway
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "8000:8000"
+    depends_on:
+      - user-service
+      - liveblog-service
+      - notification-service
+
+  # Databases
+  user-db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: userdb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+
+  liveblog-db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: liveblogdb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+
+  # Message Brokers
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"

@@ -1,0 +1,588 @@
+ERROR 2025-07-15 07:21:06,874 log 82080 134235174204992 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 35, in __getitem__
+    return self._storages[alias]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 116, in render
+    url = self.url(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 113, in url
+    return self.handle_simple(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 537, in _setup
+    self._wrapped = storages[STATICFILES_STORAGE_ALIAS]
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 43, in __getitem__
+    storage = self.create_storage(params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 55, in create_storage
+    return storage_cls(**options)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 460, in __init__
+    self.hashed_files, self.manifest_hash = self.load_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 470, in load_manifest
+    content = self.read_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 464, in read_manifest
+    with self.manifest_storage.open(self.manifest_name) as manifest:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 39, in path
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path.
+ERROR 2025-07-15 07:21:27,818 log 82080 134235174204992 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 35, in __getitem__
+    return self._storages[alias]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 116, in render
+    url = self.url(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 113, in url
+    return self.handle_simple(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 537, in _setup
+    self._wrapped = storages[STATICFILES_STORAGE_ALIAS]
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 43, in __getitem__
+    storage = self.create_storage(params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 55, in create_storage
+    return storage_cls(**options)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 460, in __init__
+    self.hashed_files, self.manifest_hash = self.load_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 470, in load_manifest
+    content = self.read_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 464, in read_manifest
+    with self.manifest_storage.open(self.manifest_name) as manifest:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 39, in path
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path.
+ERROR 2025-07-15 07:21:28,618 log 82080 134235174204992 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 35, in __getitem__
+    return self._storages[alias]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 116, in render
+    url = self.url(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 113, in url
+    return self.handle_simple(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 537, in _setup
+    self._wrapped = storages[STATICFILES_STORAGE_ALIAS]
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 43, in __getitem__
+    storage = self.create_storage(params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 55, in create_storage
+    return storage_cls(**options)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 460, in __init__
+    self.hashed_files, self.manifest_hash = self.load_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 470, in load_manifest
+    content = self.read_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 464, in read_manifest
+    with self.manifest_storage.open(self.manifest_name) as manifest:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 39, in path
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path.
+ERROR 2025-07-15 07:21:29,700 log 82080 134235174204992 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 35, in __getitem__
+    return self._storages[alias]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 116, in render
+    url = self.url(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 113, in url
+    return self.handle_simple(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 537, in _setup
+    self._wrapped = storages[STATICFILES_STORAGE_ALIAS]
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 43, in __getitem__
+    storage = self.create_storage(params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 55, in create_storage
+    return storage_cls(**options)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 460, in __init__
+    self.hashed_files, self.manifest_hash = self.load_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 470, in load_manifest
+    content = self.read_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 464, in read_manifest
+    with self.manifest_storage.open(self.manifest_name) as manifest:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 39, in path
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path.
+ERROR 2025-07-15 07:21:35,473 log 82080 134235174204992 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 35, in __getitem__
+    return self._storages[alias]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 116, in render
+    url = self.url(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 113, in url
+    return self.handle_simple(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 537, in _setup
+    self._wrapped = storages[STATICFILES_STORAGE_ALIAS]
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 43, in __getitem__
+    storage = self.create_storage(params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 55, in create_storage
+    return storage_cls(**options)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 460, in __init__
+    self.hashed_files, self.manifest_hash = self.load_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 470, in load_manifest
+    content = self.read_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 464, in read_manifest
+    with self.manifest_storage.open(self.manifest_name) as manifest:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 39, in path
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path.
+ERROR 2025-07-15 07:21:41,685 log 82080 134235174204992 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 35, in __getitem__
+    return self._storages[alias]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 116, in render
+    url = self.url(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 113, in url
+    return self.handle_simple(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 537, in _setup
+    self._wrapped = storages[STATICFILES_STORAGE_ALIAS]
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 43, in __getitem__
+    storage = self.create_storage(params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 55, in create_storage
+    return storage_cls(**options)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 460, in __init__
+    self.hashed_files, self.manifest_hash = self.load_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 470, in load_manifest
+    content = self.read_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 464, in read_manifest
+    with self.manifest_storage.open(self.manifest_name) as manifest:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 39, in path
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path.
+ERROR 2025-07-15 07:22:07,260 log 82080 134235174204992 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 35, in __getitem__
+    return self._storages[alias]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 116, in render
+    url = self.url(context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 113, in url
+    return self.handle_simple(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 537, in _setup
+    self._wrapped = storages[STATICFILES_STORAGE_ALIAS]
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 43, in __getitem__
+    storage = self.create_storage(params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/handler.py", line 55, in create_storage
+    return storage_cls(**options)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 460, in __init__
+    self.hashed_files, self.manifest_hash = self.load_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 470, in load_manifest
+    content = self.read_manifest()
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 464, in read_manifest
+    with self.manifest_storage.open(self.manifest_name) as manifest:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 39, in path
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path.

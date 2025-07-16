@@ -1,0 +1,11 @@
+# Install testing dependencies
+pip install pytest pytest-django pytest-asyncio
+
+# Run tests
+python manage.py test
+pytest tests/
+
+# Run with coverage
+pip install coverage
+coverage run --source='.' manage.py test
+coverage report

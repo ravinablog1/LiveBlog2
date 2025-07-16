@@ -1,0 +1,777 @@
+INFO 2025-07-15 07:02:07,713 autoreload 81067 130418821451776 Watching for file changes with StatReloader
+INFO 2025-07-15 07:02:26,280 autoreload 81067 130418821451776 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/settings.py changed, reloading.
+INFO 2025-07-15 07:02:27,093 autoreload 81098 135029345116160 Watching for file changes with StatReloader
+INFO 2025-07-15 07:02:46,453 autoreload 81098 135029345116160 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/settings.py changed, reloading.
+INFO 2025-07-15 07:02:47,071 autoreload 81126 137678227173376 Watching for file changes with StatReloader
+INFO 2025-07-15 07:04:23,256 autoreload 81126 137678227173376 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/settings.py changed, reloading.
+INFO 2025-07-15 07:04:24,126 autoreload 81209 140607991820288 Watching for file changes with StatReloader
+INFO 2025-07-15 07:05:16,225 autoreload 81261 128446803304448 Watching for file changes with StatReloader
+INFO 2025-07-15 07:07:10,183 autoreload 81261 128446803304448 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/settings.py changed, reloading.
+INFO 2025-07-15 07:07:11,575 autoreload 81300 127818594295808 Watching for file changes with StatReloader
+INFO 2025-07-15 07:07:30,115 autoreload 81300 127818594295808 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/settings.py changed, reloading.
+INFO 2025-07-15 07:07:31,397 autoreload 81309 125741990473728 Watching for file changes with StatReloader
+INFO 2025-07-15 07:09:54,485 autoreload 81530 136010748194816 Watching for file changes with StatReloader
+INFO 2025-07-15 07:12:46,907 autoreload 81530 136010748194816 /home/neosoft/Desktop/liveblog/liveblogproject/liveblog/views.py changed, reloading.
+INFO 2025-07-15 07:12:49,520 autoreload 81678 124192947232768 Watching for file changes with StatReloader
+INFO 2025-07-15 07:13:04,481 autoreload 81698 130028362862592 Watching for file changes with StatReloader
+INFO 2025-07-15 07:14:36,169 autoreload 81698 130028362862592 /home/neosoft/Desktop/liveblog/liveblogproject/liveblog/urls.py changed, reloading.
+INFO 2025-07-15 07:14:38,134 autoreload 81793 133667793379328 Watching for file changes with StatReloader
+INFO 2025-07-15 07:16:18,640 autoreload 81793 133667793379328 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/settings.py changed, reloading.
+INFO 2025-07-15 07:16:21,184 autoreload 81889 127228994314240 Watching for file changes with StatReloader
+INFO 2025-07-15 07:17:02,429 autoreload 81889 127228994314240 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/settings.py changed, reloading.
+INFO 2025-07-15 07:17:04,846 autoreload 81939 129114858881024 Watching for file changes with StatReloader
+INFO 2025-07-15 07:17:24,134 autoreload 81939 129114858881024 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/settings.py changed, reloading.
+INFO 2025-07-15 07:17:25,196 autoreload 81980 136279417147392 Watching for file changes with StatReloader
+INFO 2025-07-15 07:21:00,310 autoreload 82080 134235335077888 Watching for file changes with StatReloader
+INFO 2025-07-15 07:21:06,761 basehttp 82080 134235174204992 "GET /admin/auth/group/add/ HTTP/1.1" 302 0
+ERROR 2025-07-15 07:21:06,879 basehttp 82080 134235174204992 "GET /admin/login/?next=/admin/auth/group/add/ HTTP/1.1" 500 273024
+INFO 2025-07-15 07:21:27,737 basehttp 82080 134235174204992 "GET /admin/realtime/userfollow/add/ HTTP/1.1" 302 0
+ERROR 2025-07-15 07:21:27,820 basehttp 82080 134235174204992 "GET /admin/login/?next=/admin/realtime/userfollow/add/ HTTP/1.1" 500 273364
+INFO 2025-07-15 07:21:28,501 basehttp 82080 134235174204992 "GET /admin/realtime/postrating/add/ HTTP/1.1" 302 0
+ERROR 2025-07-15 07:21:28,619 basehttp 82080 134235174204992 "GET /admin/login/?next=/admin/realtime/postrating/add/ HTTP/1.1" 500 273235
+INFO 2025-07-15 07:21:29,580 basehttp 82080 134235174204992 "GET /admin/realtime/notification/add/ HTTP/1.1" 302 0
+ERROR 2025-07-15 07:21:29,701 basehttp 82080 134235174204992 "GET /admin/login/?next=/admin/realtime/notification/add/ HTTP/1.1" 500 273336
+INFO 2025-07-15 07:21:35,338 basehttp 82080 134235174204992 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-07-15 07:21:35,474 basehttp 82080 134235174204992 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 271911
+INFO 2025-07-15 07:21:41,600 basehttp 82080 134235174204992 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-07-15 07:21:41,686 basehttp 82080 134235174204992 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 271911
+WARNING 2025-07-15 07:21:47,026 basehttp 82080 134235174204992 "GET / HTTP/1.1" 404 2668
+INFO 2025-07-15 07:22:07,180 basehttp 82080 134235174204992 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-07-15 07:22:07,263 basehttp 82080 134235174204992 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 271911
+INFO 2025-07-15 07:22:27,356 autoreload 82080 134235335077888 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/settings.py changed, reloading.
+INFO 2025-07-15 07:22:28,430 autoreload 82178 132257432059904 Watching for file changes with StatReloader
+INFO 2025-07-15 07:23:10,178 autoreload 82208 138031513362432 Watching for file changes with StatReloader
+INFO 2025-07-15 07:23:13,932 basehttp 82208 138031420925504 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2025-07-15 07:23:13,974 basehttp 82208 138031412532800 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-07-15 07:23:13,975 basehttp 82208 138031420925504 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-07-15 07:23:13,976 basehttp 82208 138031402042944 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-07-15 07:23:13,978 basehttp 82208 138031180801600 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-07-15 07:23:13,981 basehttp 82208 138031189194304 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-07-15 07:23:13,982 basehttp 82208 138031172408896 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-07-15 07:23:13,987 basehttp 82208 138031402042944 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-07-15 07:23:24,573 basehttp 82208 138031402042944 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-07-15 07:23:24,606 basehttp 82208 138031402042944 "GET /admin/ HTTP/1.1" 200 7842
+INFO 2025-07-15 07:23:24,684 basehttp 82208 138031402042944 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-07-15 07:23:24,734 basehttp 82208 138031402042944 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-07-15 07:23:24,735 basehttp 82208 138031420925504 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-07-15 07:23:28,575 basehttp 82208 138031402042944 "GET /admin/auth/group/add/ HTTP/1.1" 200 13399
+INFO 2025-07-15 07:23:28,618 basehttp 82208 138031420925504 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2025-07-15 07:23:28,627 basehttp 82208 138031172408896 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-07-15 07:23:28,633 basehttp 82208 138031402042944 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-15 07:23:28,631 basehttp 82208 138031180801600 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-07-15 07:23:28,632 basehttp 82208 138031412532800 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-07-15 07:23:28,629 basehttp 82208 138031189194304 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-07-15 07:23:28,635 basehttp 82208 138031420925504 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-07-15 07:23:28,643 basehttp 82208 138031172408896 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2025-07-15 07:23:28,646 basehttp 82208 138031412532800 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2025-07-15 07:23:28,647 basehttp 82208 138031189194304 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-07-15 07:23:28,647 basehttp 82208 138031180801600 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-07-15 07:23:28,674 basehttp 82208 138031402042944 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-07-15 07:23:28,679 basehttp 82208 138031420925504 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-07-15 07:23:28,682 basehttp 82208 138031420925504 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-07-15 07:23:28,725 basehttp 82208 138031402042944 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-07-15 07:23:28,778 basehttp 82208 138031402042944 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2025-07-15 07:23:28,785 basehttp 82208 138031180801600 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-07-15 07:23:28,789 basehttp 82208 138031189194304 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2025-07-15 07:23:28,791 basehttp 82208 138031420925504 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-07-15 07:23:34,444 basehttp 82208 138031402042944 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2025-07-15 07:23:34,489 basehttp 82208 138031402042944 "GET /admin/auth/group/ HTTP/1.1" 200 10327
+INFO 2025-07-15 07:23:34,584 basehttp 82208 138031402042944 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-07-15 07:23:34,595 basehttp 82208 138031402042944 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-07-15 07:23:34,662 basehttp 82208 138031402042944 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-07-15 07:23:34,663 basehttp 82208 138031420925504 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-07-15 07:23:37,910 basehttp 82208 138031402042944 "GET /admin/liveblog/liveblog/add/ HTTP/1.1" 200 13449
+INFO 2025-07-15 07:23:49,610 basehttp 82208 138031402042944 "POST /admin/liveblog/liveblog/add/ HTTP/1.1" 302 0
+INFO 2025-07-15 07:23:49,663 basehttp 82208 138031402042944 "GET /admin/liveblog/liveblog/ HTTP/1.1" 200 13241
+INFO 2025-07-15 07:23:49,747 basehttp 82208 138031402042944 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-07-15 07:24:05,369 basehttp 82208 138031402042944 "GET /admin/realtime/comment/add/ HTTP/1.1" 200 11340
+INFO 2025-07-15 07:24:08,040 basehttp 82208 138031402042944 "GET /admin/realtime/notification/add/ HTTP/1.1" 200 14975
+INFO 2025-07-15 07:24:13,237 basehttp 82208 138031402042944 "GET /admin/realtime/postrating/add/ HTTP/1.1" 200 11016
+INFO 2025-07-15 07:24:18,445 basehttp 82208 138031402042944 "GET /admin/realtime/userfollow/add/ HTTP/1.1" 200 10061
+INFO 2025-07-15 07:24:19,990 basehttp 82208 138031402042944 "GET /admin/realtime/userfollow/add/ HTTP/1.1" 200 10061
+INFO 2025-07-15 07:24:21,919 basehttp 82208 138031402042944 "POST /admin/realtime/userfollow/add/ HTTP/1.1" 200 10271
+INFO 2025-07-15 07:24:25,359 basehttp 82208 138031402042944 "GET /admin/ HTTP/1.1" 200 8446
+INFO 2025-07-15 07:26:58,927 basehttp 82208 138031402042944 "GET /admin/ HTTP/1.1" 200 8446
+INFO 2025-07-15 07:26:58,972 basehttp 82208 138031189194304 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:26:58,972 basehttp 82208 138031412532800 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:26:58,972 basehttp 82208 138031420925504 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:26:58,972 basehttp 82208 138031402042944 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:26:58,973 basehttp 82208 138031172408896 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:26:58,973 basehttp 82208 138031180801600 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:26:58,983 basehttp 82208 138031180801600 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:45,947 autoreload 82488 138438645395456 Watching for file changes with StatReloader
+INFO 2025-07-15 07:29:51,498 basehttp 82488 138438551529024 "GET /admin/liveblog/liveblog/add/ HTTP/1.1" 200 13449
+INFO 2025-07-15 07:29:51,528 basehttp 82488 138438551529024 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,533 basehttp 82488 138438472889920 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,541 basehttp 82488 138438472889920 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,583 basehttp 82488 138438456104512 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,583 basehttp 82488 138438464497216 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,586 basehttp 82488 138438472889920 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,586 basehttp 82488 138438439319104 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,586 basehttp 82488 138438551529024 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,589 basehttp 82488 138438447711808 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,590 basehttp 82488 138438456104512 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,597 basehttp 82488 138438464497216 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,599 basehttp 82488 138438439319104 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,602 basehttp 82488 138438447711808 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,625 basehttp 82488 138438551529024 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,629 basehttp 82488 138438472889920 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,673 basehttp 82488 138438472889920 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,684 basehttp 82488 138438551529024 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,685 basehttp 82488 138438447711808 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:29:51,693 basehttp 82488 138438439319104 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-07-15 07:41:54,245 autoreload 82900 130154183294976 Watching for file changes with StatReloader
+INFO 2025-07-15 07:42:01,566 basehttp 82900 130154017846848 "GET /admin/liveblog/liveblog/add/ HTTP/1.1" 200 14620
+INFO 2025-07-15 07:42:01,606 basehttp 82900 130154009454144 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,606 basehttp 82900 130154001061440 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,609 basehttp 82900 130153984276032 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,614 basehttp 82900 130153992668736 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,617 basehttp 82900 130154017846848 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,617 basehttp 82900 130154009454144 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,619 basehttp 82900 130154001061440 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,621 basehttp 82900 130153984276032 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,623 basehttp 82900 130153992668736 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,636 basehttp 82900 130153975883328 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-15 07:42:01,639 basehttp 82900 130153975883328 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,649 basehttp 82900 130154017846848 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,660 basehttp 82900 130154009454144 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,662 basehttp 82900 130154001061440 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,667 basehttp 82900 130153984276032 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,669 basehttp 82900 130153992668736 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,713 basehttp 82900 130153992668736 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,718 basehttp 82900 130154001061440 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,718 basehttp 82900 130153984276032 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:01,721 basehttp 82900 130154009454144 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:16,770 basehttp 82900 130154009454144 "POST /admin/liveblog/liveblog/add/ HTTP/1.1" 302 0
+INFO 2025-07-15 07:42:16,833 basehttp 82900 130154009454144 "GET /admin/liveblog/liveblog/ HTTP/1.1" 200 13694
+INFO 2025-07-15 07:42:16,910 basehttp 82900 130153992668736 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:16,910 basehttp 82900 130154009454144 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:16,911 basehttp 82900 130153984276032 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:16,912 basehttp 82900 130154001061440 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:16,986 basehttp 82900 130154009454144 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-07-15 07:42:16,988 basehttp 82900 130154001061440 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2025-07-15 07:44:41,560 autoreload 82900 130154183294976 /home/neosoft/Desktop/liveblog/liveblogproject/liveblog/views.py changed, reloading.
+INFO 2025-07-15 07:44:42,609 autoreload 83005 138743913791488 Watching for file changes with StatReloader
+INFO 2025-07-15 07:52:33,718 autoreload 83141 127101883265024 Watching for file changes with StatReloader
+INFO 2025-07-15 07:55:22,688 autoreload 83418 138953726799872 Watching for file changes with StatReloader
+INFO 2025-07-15 07:57:34,380 autoreload 83474 136647027662848 Watching for file changes with StatReloader
+INFO 2025-07-15 08:11:12,079 basehttp 83474 136646863353408 "OPTIONS /api/v1/user/token/refresh/ HTTP/1.1" 200 0
+INFO 2025-07-15 08:11:12,088 basehttp 83474 136646854960704 "OPTIONS /api/v1/user/token/refresh/ HTTP/1.1" 200 0
+WARNING 2025-07-15 08:11:12,123 basehttp 83474 136646854960704 "POST /api/v1/user/token/refresh/ HTTP/1.1" 404 3250
+WARNING 2025-07-15 08:11:12,125 basehttp 83474 136646863353408 "POST /api/v1/user/token/refresh/ HTTP/1.1" 404 3250
+WARNING 2025-07-15 08:11:34,402 basehttp 83474 136646854960704 "POST /api/v1/user/token/refresh/ HTTP/1.1" 404 3250
+WARNING 2025-07-15 08:11:34,410 basehttp 83474 136646863353408 "POST /api/v1/user/token/refresh/ HTTP/1.1" 404 3250
+WARNING 2025-07-15 08:11:51,967 basehttp 83474 136646863353408 "POST /api/v1/user/token/refresh/ HTTP/1.1" 404 3250
+WARNING 2025-07-15 08:11:51,971 basehttp 83474 136646854960704 "POST /api/v1/user/token/refresh/ HTTP/1.1" 404 3250
+INFO 2025-07-15 08:21:54,254 autoreload 85217 127969936617472 Watching for file changes with StatReloader
+WARNING 2025-07-15 08:23:22,074 basehttp 85217 127969840330304 "GET /api/v1/post/lists/ HTTP/1.1" 404 3225
+WARNING 2025-07-15 08:23:22,085 basehttp 85217 127969840330304 "GET /api/v1/post/lists/ HTTP/1.1" 404 3225
+WARNING 2025-07-15 08:23:27,549 basehttp 85217 127969840330304 "GET /api/v1/post/lists/ HTTP/1.1" 404 3225
+WARNING 2025-07-15 08:23:27,568 basehttp 85217 127969840330304 "GET /api/v1/post/lists/ HTTP/1.1" 404 3225
+WARNING 2025-07-15 08:24:07,499 basehttp 85217 127969840330304 "GET /api/v1/post/lists/ HTTP/1.1" 404 3225
+WARNING 2025-07-15 08:24:07,515 basehttp 85217 127969840330304 "GET /api/v1/post/lists/ HTTP/1.1" 404 3225
+WARNING 2025-07-15 08:28:25,236 basehttp 85217 127969840330304 "GET /api/v1/post/lists/ HTTP/1.1" 404 3225
+WARNING 2025-07-15 08:28:25,248 basehttp 85217 127969840330304 "GET /api/v1/post/lists/ HTTP/1.1" 404 3225
+WARNING 2025-07-15 08:32:17,725 basehttp 85217 127969840330304 "GET /api/post/lists/ HTTP/1.1" 404 3216
+WARNING 2025-07-15 08:32:17,740 basehttp 85217 127969840330304 "GET /api/post/lists/ HTTP/1.1" 404 3216
+INFO 2025-07-15 08:33:10,349 basehttp 85217 127969840330304 "OPTIONS /api/users/register/ HTTP/1.1" 200 0
+WARNING 2025-07-15 08:33:10,388 basehttp 85217 127969840330304 "POST /api/users/register/ HTTP/1.1" 400 50
+INFO 2025-07-15 08:33:17,274 basehttp 85217 127969840330304 "POST /api/users/register/ HTTP/1.1" 201 632
+INFO 2025-07-15 08:33:17,324 basehttp 85217 127969840330304 "OPTIONS /api/author/dashboard/stats/7/ HTTP/1.1" 200 0
+INFO 2025-07-15 08:33:17,329 basehttp 85217 127969758541376 "OPTIONS /api/author/dashboard/stats/7/ HTTP/1.1" 200 0
+WARNING 2025-07-15 08:33:17,348 basehttp 85217 127969840330304 "GET /api/author/dashboard/stats/7/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 08:33:17,398 basehttp 85217 127969840330304 "GET /api/author/dashboard/stats/7/ HTTP/1.1" 404 3258
+INFO 2025-07-15 08:33:33,521 basehttp 85217 127969840330304 "OPTIONS /api/post/lists/ HTTP/1.1" 200 0
+INFO 2025-07-15 08:33:33,524 basehttp 85217 127969758541376 "OPTIONS /api/post/lists/ HTTP/1.1" 200 0
+WARNING 2025-07-15 08:33:33,538 basehttp 85217 127969840330304 "GET /api/post/lists/ HTTP/1.1" 404 3216
+WARNING 2025-07-15 08:33:33,590 basehttp 85217 127969840330304 "GET /api/post/lists/ HTTP/1.1" 404 3216
+WARNING 2025-07-15 08:33:37,033 basehttp 85217 127969840330304 "GET /api/author/dashboard/stats/7/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 08:33:37,048 basehttp 85217 127969840330304 "GET /api/author/dashboard/stats/7/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 08:33:44,990 basehttp 85217 127969840330304 "GET /api/author/dashboard/stats/7/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 08:33:45,005 basehttp 85217 127969840330304 "GET /api/author/dashboard/stats/7/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 08:33:55,849 basehttp 85217 127969840330304 "GET /api/post/lists/ HTTP/1.1" 404 3216
+WARNING 2025-07-15 08:33:55,868 basehttp 85217 127969840330304 "GET /api/post/lists/ HTTP/1.1" 404 3216
+WARNING 2025-07-15 08:34:07,025 basehttp 85217 127969840330304 "GET /api/post/lists/ HTTP/1.1" 404 3216
+WARNING 2025-07-15 08:34:07,043 basehttp 85217 127969840330304 "GET /api/post/lists/ HTTP/1.1" 404 3216
+WARNING 2025-07-15 08:34:15,766 basehttp 85217 127969840330304 "GET /api/author/dashboard/stats/7/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 08:34:15,781 basehttp 85217 127969840330304 "GET /api/author/dashboard/stats/7/ HTTP/1.1" 404 3258
+INFO 2025-07-15 08:34:18,654 basehttp 85217 127969840330304 "OPTIONS /api/author/dashboard/post-list/7/ HTTP/1.1" 200 0
+INFO 2025-07-15 08:34:18,658 basehttp 85217 127969758541376 "OPTIONS /api/author/dashboard/post-list/7/ HTTP/1.1" 200 0
+WARNING 2025-07-15 08:34:18,672 basehttp 85217 127969840330304 "GET /api/author/dashboard/post-list/7/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 08:34:18,723 basehttp 85217 127969840330304 "GET /api/author/dashboard/post-list/7/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 08:36:00,065 basehttp 85217 127969840330304 "GET /api/author/dashboard/post-list/7/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 08:36:00,084 basehttp 85217 127969840330304 "GET /api/author/dashboard/post-list/7/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 08:39:06,209 basehttp 85217 127969840330304 "GET /api/author/dashboard/post-list/7/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 08:39:06,225 basehttp 85217 127969840330304 "GET /api/author/dashboard/post-list/7/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 08:39:08,585 basehttp 85217 127969840330304 "GET /api/liveblog/ HTTP/1.1" 401 58
+WARNING 2025-07-15 08:39:08,592 basehttp 85217 127969758541376 "GET /api/liveblog/ HTTP/1.1" 401 58
+WARNING 2025-07-15 08:39:08,796 basehttp 85217 127969758541376 "GET /api/liveblog/ HTTP/1.1" 401 58
+WARNING 2025-07-15 08:39:08,802 basehttp 85217 127969840330304 "GET /api/liveblog/ HTTP/1.1" 401 58
+WARNING 2025-07-15 09:14:26,418 basehttp 85217 127969840330304 "GET /api/liveblog/ HTTP/1.1" 401 58
+WARNING 2025-07-15 09:14:26,436 basehttp 85217 127969758541376 "GET /api/liveblog/ HTTP/1.1" 401 58
+INFO 2025-07-15 09:17:37,234 basehttp 85217 127969758541376 "OPTIONS /api/user/token/ HTTP/1.1" 200 0
+WARNING 2025-07-15 09:17:37,247 basehttp 85217 127969758541376 "POST /api/user/token/ HTTP/1.1" 404 3217
+WARNING 2025-07-15 09:20:18,496 basehttp 85217 127969758541376 "POST /api/user/token/ HTTP/1.1" 404 3217
+WARNING 2025-07-15 09:20:20,251 basehttp 85217 127969758541376 "POST /api/user/token/ HTTP/1.1" 404 3217
+INFO 2025-07-15 09:20:43,456 autoreload 87075 128757184987136 Watching for file changes with StatReloader
+WARNING 2025-07-15 09:20:48,099 basehttp 87075 128757012624960 "POST /api/user/token/ HTTP/1.1" 404 3217
+INFO 2025-07-15 09:22:21,340 basehttp 87075 128757012624960 "OPTIONS /api/users/login/ HTTP/1.1" 200 0
+INFO 2025-07-15 09:22:21,834 basehttp 87075 128757012624960 "POST /api/users/login/ HTTP/1.1" 200 632
+WARNING 2025-07-15 09:22:21,937 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:22:21,955 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+INFO 2025-07-15 09:22:31,798 basehttp 87075 128757012624960 "POST /api/users/login/ HTTP/1.1" 200 632
+WARNING 2025-07-15 09:22:31,837 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:22:31,886 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+INFO 2025-07-15 09:22:50,506 basehttp 87075 128757012624960 "POST /api/users/login/ HTTP/1.1" 200 632
+WARNING 2025-07-15 09:22:50,554 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:22:50,605 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:26:15,836 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:26:15,854 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+INFO 2025-07-15 09:26:19,624 basehttp 87075 128757012624960 "POST /api/users/login/ HTTP/1.1" 200 632
+INFO 2025-07-15 09:26:19,665 basehttp 87075 128757012624960 "OPTIONS /api/author/dashboard/stats/8/ HTTP/1.1" 200 0
+INFO 2025-07-15 09:26:19,668 basehttp 87075 128757004232256 "OPTIONS /api/author/dashboard/stats/8/ HTTP/1.1" 200 0
+WARNING 2025-07-15 09:26:19,686 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:26:19,740 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+INFO 2025-07-15 09:26:24,380 basehttp 87075 128757012624960 "OPTIONS /api/liveblog/ HTTP/1.1" 200 0
+INFO 2025-07-15 09:26:24,382 basehttp 87075 128757004232256 "OPTIONS /api/liveblog/ HTTP/1.1" 200 0
+INFO 2025-07-15 09:26:24,407 basehttp 87075 128757012624960 "GET /api/liveblog/ HTTP/1.1" 200 119
+INFO 2025-07-15 09:26:35,483 basehttp 87075 128757012624960 "POST /api/users/login/ HTTP/1.1" 200 632
+WARNING 2025-07-15 09:26:35,545 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:26:35,562 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:26:40,988 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:26:41,005 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:26:56,242 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:26:56,278 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:32:21,136 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:32:21,155 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:32:49,024 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:32:49,041 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:36:18,961 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:36:18,980 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:36:59,624 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:36:59,645 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:37:13,279 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:37:13,300 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+INFO 2025-07-15 09:37:15,699 basehttp 87075 128757012624960 "GET /api/liveblog/ HTTP/1.1" 200 119
+WARNING 2025-07-15 09:37:34,968 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:37:34,988 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+INFO 2025-07-15 09:37:54,694 basehttp 87075 128757004232256 "OPTIONS /api/post/category/list/ HTTP/1.1" 200 0
+INFO 2025-07-15 09:37:54,695 basehttp 87075 128757012624960 "OPTIONS /api/post/category/list/ HTTP/1.1" 200 0
+WARNING 2025-07-15 09:37:54,715 basehttp 87075 128757012624960 "GET /api/post/category/list/ HTTP/1.1" 404 3240
+WARNING 2025-07-15 09:37:54,766 basehttp 87075 128757012624960 "GET /api/post/category/list/ HTTP/1.1" 404 3240
+INFO 2025-07-15 09:38:18,770 basehttp 87075 128757012624960 "OPTIONS /api/author/dashboard/post-create/ HTTP/1.1" 200 0
+WARNING 2025-07-15 09:38:18,781 basehttp 87075 128757012624960 "POST /api/author/dashboard/post-create/ HTTP/1.1" 404 3271
+WARNING 2025-07-15 09:38:20,321 basehttp 87075 128757012624960 "POST /api/author/dashboard/post-create/ HTTP/1.1" 404 3271
+WARNING 2025-07-15 09:38:27,783 basehttp 87075 128757012624960 "POST /api/author/dashboard/post-create/ HTTP/1.1" 404 3271
+INFO 2025-07-15 09:38:38,918 basehttp 87075 128757012624960 "OPTIONS /api/author/dashboard/post-list/8/ HTTP/1.1" 200 0
+INFO 2025-07-15 09:38:38,919 basehttp 87075 128757004232256 "OPTIONS /api/author/dashboard/post-list/8/ HTTP/1.1" 200 0
+WARNING 2025-07-15 09:38:38,934 basehttp 87075 128757012624960 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 09:38:38,985 basehttp 87075 128757012624960 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 09:38:44,426 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:38:44,445 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:40:41,629 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:40:41,642 basehttp 87075 128757012624960 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+INFO 2025-07-15 09:47:32,017 autoreload 88084 125805267181568 Watching for file changes with StatReloader
+INFO 2025-07-15 09:49:41,020 autoreload 88084 125805267181568 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/settings.py changed, reloading.
+INFO 2025-07-15 09:49:42,181 autoreload 88147 132954446446592 Watching for file changes with StatReloader
+INFO 2025-07-15 09:49:55,334 autoreload 88147 132954446446592 /home/neosoft/Desktop/liveblog/liveblogproject/blog/models.py changed, reloading.
+INFO 2025-07-15 09:49:56,434 autoreload 88182 123294782795776 Watching for file changes with StatReloader
+INFO 2025-07-15 09:52:30,715 autoreload 88338 127513055297536 Watching for file changes with StatReloader
+INFO 2025-07-15 09:52:35,498 basehttp 88338 127512958989888 "GET /api/liveblog/ HTTP/1.1" 200 119
+WARNING 2025-07-15 09:52:38,216 basehttp 88338 127512958989888 "GET /api/post/category/list/ HTTP/1.1" 404 3240
+WARNING 2025-07-15 09:52:38,232 basehttp 88338 127512958989888 "GET /api/post/category/list/ HTTP/1.1" 404 3240
+WARNING 2025-07-15 09:53:24,343 basehttp 88338 127512958989888 "POST /api/author/dashboard/post-create/ HTTP/1.1" 404 3271
+WARNING 2025-07-15 09:53:30,498 basehttp 88338 127512958989888 "POST /api/author/dashboard/post-create/ HTTP/1.1" 404 3271
+WARNING 2025-07-15 09:53:38,135 basehttp 88338 127512958989888 "POST /api/author/dashboard/post-create/ HTTP/1.1" 404 3271
+WARNING 2025-07-15 09:53:38,915 basehttp 88338 127512958989888 "POST /api/author/dashboard/post-create/ HTTP/1.1" 404 3271
+WARNING 2025-07-15 09:53:39,869 basehttp 88338 127512958989888 "POST /api/author/dashboard/post-create/ HTTP/1.1" 404 3271
+WARNING 2025-07-15 09:53:57,870 basehttp 88338 127512958989888 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 09:53:57,890 basehttp 88338 127512958989888 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 09:54:22,389 basehttp 88338 127512958989888 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:54:22,401 basehttp 88338 127512958989888 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:55:46,515 basehttp 88338 127512958989888 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:55:46,530 basehttp 88338 127512958989888 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 3258
+WARNING 2025-07-15 09:55:58,845 basehttp 88338 127512958989888 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 09:55:58,857 basehttp 88338 127512958989888 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 3270
+WARNING 2025-07-15 09:56:03,508 basehttp 88338 127512958989888 "GET /api/post/category/list/ HTTP/1.1" 404 3240
+WARNING 2025-07-15 09:56:03,528 basehttp 88338 127512880346688 "GET /api/post/category/list/ HTTP/1.1" 404 3240
+INFO 2025-07-15 10:02:28,458 basehttp 88338 127512880346688 "OPTIONS /api/post/test/ HTTP/1.1" 200 0
+WARNING 2025-07-15 10:02:28,478 basehttp 88338 127512880346688 "GET /api/post/test/ HTTP/1.1" 404 3213
+INFO 2025-07-15 10:03:27,335 autoreload 88338 127513055297536 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/urls.py changed, reloading.
+INFO 2025-07-15 10:03:28,301 autoreload 88801 137482306740224 Watching for file changes with StatReloader
+INFO 2025-07-15 10:03:51,118 basehttp 88801 137482210375232 "OPTIONS /api/post/list/ HTTP/1.1" 200 0
+INFO 2025-07-15 10:03:51,210 basehttp 88801 137482210375232 "GET /api/post/list/ HTTP/1.1" 200 52
+INFO 2025-07-15 10:04:12,657 autoreload 88801 137482306740224 /home/neosoft/Desktop/liveblog/liveblogproject/blog/views.py changed, reloading.
+INFO 2025-07-15 10:04:13,894 autoreload 88871 123457724870656 Watching for file changes with StatReloader
+INFO 2025-07-15 10:04:25,689 autoreload 88871 123457724870656 /home/neosoft/Desktop/liveblog/liveblogproject/blog/urls.py changed, reloading.
+INFO 2025-07-15 10:04:26,674 autoreload 88902 125458735542272 Watching for file changes with StatReloader
+INFO 2025-07-15 10:07:45,740 autoreload 88902 125458735542272 /home/neosoft/Desktop/liveblog/liveblogproject/blog/views.py changed, reloading.
+INFO 2025-07-15 10:07:46,431 autoreload 89018 133076759883776 Watching for file changes with StatReloader
+INFO 2025-07-15 10:08:13,511 autoreload 89018 133076759883776 /home/neosoft/Desktop/liveblog/liveblogproject/blog/serializers.py changed, reloading.
+INFO 2025-07-15 10:08:14,571 autoreload 89057 124668924522496 Watching for file changes with StatReloader
+INFO 2025-07-15 10:08:25,004 autoreload 89057 124668924522496 /home/neosoft/Desktop/liveblog/liveblogproject/blog/views.py changed, reloading.
+INFO 2025-07-15 10:08:25,980 autoreload 89086 140557145673728 Watching for file changes with StatReloader
+INFO 2025-07-15 10:09:38,529 autoreload 89086 140557145673728 /home/neosoft/Desktop/liveblog/liveblogproject/liveblogproject/settings.py changed, reloading.
+INFO 2025-07-15 10:09:39,845 autoreload 89281 139148019744768 Watching for file changes with StatReloader
+INFO 2025-07-15 10:12:36,340 basehttp 89281 139147914241600 "OPTIONS /api/health-check/ HTTP/1.1" 200 0
+INFO 2025-07-15 10:12:36,341 basehttp 89281 139147922634304 "OPTIONS /api/health-check/ HTTP/1.1" 200 0
+INFO 2025-07-15 10:12:36,370 basehttp 89281 139147922634304 "GET /api/health-check/ HTTP/1.1" 200 56
+INFO 2025-07-15 10:12:36,475 basehttp 89281 139147922634304 "GET /api/post/test/ HTTP/1.1" 200 59
+INFO 2025-07-15 10:12:44,737 basehttp 89281 139147922634304 "GET /api/post/category/list/ HTTP/1.1" 200 52
+WARNING 2025-07-15 10:13:07,786 basehttp 89281 139147922634304 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 2894
+WARNING 2025-07-15 10:13:07,803 basehttp 89281 139147922634304 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 2894
+WARNING 2025-07-15 10:13:12,509 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:13:12,530 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-15 10:21:43,918 basehttp 89281 139147922634304 "GET /api/post/list/ HTTP/1.1" 200 2
+WARNING 2025-07-15 10:21:53,944 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:21:53,965 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-15 10:22:40,010 basehttp 89281 139147922634304 "GET /api/health-check/ HTTP/1.1" 200 56
+INFO 2025-07-15 10:22:40,034 basehttp 89281 139147922634304 "GET /api/post/test/ HTTP/1.1" 200 59
+WARNING 2025-07-15 10:24:27,798 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:24:27,825 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:24:31,323 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:24:31,372 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:27:24,976 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:27:24,997 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:27:29,619 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:27:29,633 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:27:39,317 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:27:39,333 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:27:59,917 basehttp 89281 139147922634304 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 2894
+WARNING 2025-07-15 10:27:59,932 basehttp 89281 139147922634304 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 2894
+INFO 2025-07-15 10:39:32,509 basehttp 89281 139147922634304 "OPTIONS /api/health-check/ HTTP/1.1" 200 0
+INFO 2025-07-15 10:39:32,511 basehttp 89281 139147914241600 "OPTIONS /api/health-check/ HTTP/1.1" 200 0
+INFO 2025-07-15 10:39:32,567 basehttp 89281 139147914241600 "GET /api/health-check/ HTTP/1.1" 200 56
+WARNING 2025-07-15 10:39:32,642 basehttp 89281 139147914241600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:39:32,702 basehttp 89281 139147922634304 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:39:32,751 basehttp 89281 139147922634304 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:39:32,765 basehttp 89281 139147922634304 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:39:36,869 basehttp 89281 139147922634304 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:39:36,884 basehttp 89281 139147914241600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:39:36,923 basehttp 89281 139147914241600 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:39:36,977 basehttp 89281 139147922634304 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:39:42,699 basehttp 89281 139147922634304 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:39:42,705 basehttp 89281 139147914241600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:39:42,719 basehttp 89281 139147922634304 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:39:42,777 basehttp 89281 139147914241600 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:33,397 basehttp 89281 139147914241600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:33,412 basehttp 89281 139147922634304 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:33,420 basehttp 89281 139147914241600 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:33,467 basehttp 89281 139147922634304 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:40,822 basehttp 89281 139147922634304 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:40,830 basehttp 89281 139147914241600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:40,842 basehttp 89281 139147914241600 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:40,889 basehttp 89281 139147922634304 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:47,851 basehttp 89281 139147922634304 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:47,860 basehttp 89281 139147914241600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:47,871 basehttp 89281 139147922634304 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:47,917 basehttp 89281 139147914241600 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:51,696 basehttp 89281 139147914241600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:51,704 basehttp 89281 139147922634304 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:51,708 basehttp 89281 139147914241600 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:43:51,753 basehttp 89281 139147922634304 "GET /api/post/list/ HTTP/1.1" 401 183
+INFO 2025-07-15 10:43:57,382 basehttp 89281 139147922634304 "OPTIONS /api/author/dashboard/stats/8/ HTTP/1.1" 200 0
+INFO 2025-07-15 10:43:57,383 basehttp 89281 139147914241600 "OPTIONS /api/author/dashboard/stats/8/ HTTP/1.1" 200 0
+WARNING 2025-07-15 10:43:57,399 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:43:57,453 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:44:00,851 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:44:00,867 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:44:11,512 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:44:11,528 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-15 10:47:17,934 basehttp 89281 139147903751744 "GET /admin/liveblog/liveblog/ HTTP/1.1" 200 14284
+INFO 2025-07-15 10:47:17,956 basehttp 89281 139147903751744 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:17,964 basehttp 89281 139147895359040 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:17,969 basehttp 89281 139147545146944 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:17,972 basehttp 89281 139147536754240 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:17,982 basehttp 89281 139147545146944 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:17,983 basehttp 89281 139147536754240 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:17,983 basehttp 89281 139147895359040 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:17,984 basehttp 89281 139147519968832 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:17,987 basehttp 89281 139147519968832 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,004 basehttp 89281 139147903751744 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,008 basehttp 89281 139147528361536 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-15 10:47:18,016 basehttp 89281 139147528361536 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,037 basehttp 89281 139147536754240 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,040 basehttp 89281 139147895359040 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,041 basehttp 89281 139147519968832 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,049 basehttp 89281 139147545146944 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,120 basehttp 89281 139147545146944 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,125 basehttp 89281 139147895359040 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,126 basehttp 89281 139147519968832 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,133 basehttp 89281 139147895359040 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,139 basehttp 89281 139147528361536 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2025-07-15 10:47:18,140 basehttp 89281 139147536754240 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+WARNING 2025-07-15 10:47:25,662 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:47:25,677 basehttp 89281 139147922634304 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:47:28,581 basehttp 89281 139147922634304 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:47:28,586 basehttp 89281 139147914241600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:47:28,604 basehttp 89281 139147914241600 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:47:28,650 basehttp 89281 139147922634304 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:48:08,075 basehttp 89281 139147903751744 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:48:08,092 basehttp 89281 139147903751744 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-15 10:53:08,849 basehttp 89281 139147903751744 "GET /api/health-check/ HTTP/1.1" 200 56
+WARNING 2025-07-15 10:53:08,866 basehttp 89281 139147903751744 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:53:08,917 basehttp 89281 139147903751744 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:53:08,917 basehttp 89281 139147536754240 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:53:08,964 basehttp 89281 139147536754240 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:54:39,219 basehttp 89281 139147536754240 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:54:39,238 basehttp 89281 139147536754240 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:54:41,284 basehttp 89281 139147536754240 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:54:41,290 basehttp 89281 139147903751744 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:54:41,302 basehttp 89281 139147536754240 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:54:41,351 basehttp 89281 139147903751744 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:54:47,913 basehttp 89281 139147903751744 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:54:47,918 basehttp 89281 139147536754240 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:54:47,927 basehttp 89281 139147903751744 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:54:47,974 basehttp 89281 139147536754240 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:54:49,831 basehttp 89281 139147536754240 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:54:49,847 basehttp 89281 139147536754240 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 10:56:50,167 basehttp 89281 139147536754240 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:56:50,176 basehttp 89281 139147903751744 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:56:50,185 basehttp 89281 139147903751744 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 10:56:50,234 basehttp 89281 139147536754240 "GET /api/post/list/ HTTP/1.1" 401 183
+INFO 2025-07-15 11:39:18,313 basehttp 89281 139147536754240 "GET /admin/liveblog/liveblog/ HTTP/1.1" 200 14284
+INFO 2025-07-15 11:39:18,333 basehttp 89281 139147536754240 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,341 basehttp 89281 139147903751744 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,358 basehttp 89281 139147895359040 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,360 basehttp 89281 139147921585728 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,363 basehttp 89281 139147895359040 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,362 basehttp 89281 139147519968832 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,366 basehttp 89281 139147519968832 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,363 basehttp 89281 139147528361536 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,365 basehttp 89281 139147921585728 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,368 basehttp 89281 139147528361536 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,377 basehttp 89281 139147536754240 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,381 basehttp 89281 139147903751744 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-15 11:39:18,418 basehttp 89281 139147921585728 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,422 basehttp 89281 139147528361536 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,422 basehttp 89281 139147895359040 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,423 basehttp 89281 139147519968832 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,478 basehttp 89281 139147895359040 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,479 basehttp 89281 139147519968832 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,479 basehttp 89281 139147528361536 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,484 basehttp 89281 139147921585728 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,487 basehttp 89281 139147903751744 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:18,511 basehttp 89281 139147903751744 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2025-07-15 11:39:26,410 basehttp 89281 139147511576128 "OPTIONS /api/health-check/ HTTP/1.1" 200 0
+INFO 2025-07-15 11:39:26,412 basehttp 89281 139147545146944 "OPTIONS /api/health-check/ HTTP/1.1" 200 0
+INFO 2025-07-15 11:39:26,420 basehttp 89281 139147545146944 "GET /api/health-check/ HTTP/1.1" 200 56
+WARNING 2025-07-15 11:39:26,467 basehttp 89281 139147545146944 "GET /api/post/test/ HTTP/1.1" 401 183
+INFO 2025-07-15 11:39:26,512 basehttp 89281 139147545146944 "OPTIONS /api/post/list/ HTTP/1.1" 200 0
+WARNING 2025-07-15 11:39:26,513 basehttp 89281 139147511576128 "GET /api/post/test/ HTTP/1.1" 401 183
+INFO 2025-07-15 11:39:26,517 basehttp 89281 139147511576128 "OPTIONS /api/post/list/ HTTP/1.1" 200 0
+WARNING 2025-07-15 11:39:26,560 basehttp 89281 139147545146944 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 11:39:26,608 basehttp 89281 139147511576128 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 11:39:36,975 basehttp 89281 139147511576128 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 11:39:36,981 basehttp 89281 139147545146944 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-15 11:39:36,991 basehttp 89281 139147511576128 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-15 11:39:37,035 basehttp 89281 139147545146944 "GET /api/post/list/ HTTP/1.1" 401 183
+INFO 2025-07-15 11:39:39,171 basehttp 89281 139147545146944 "OPTIONS /api/author/dashboard/stats/8/ HTTP/1.1" 200 0
+INFO 2025-07-15 11:39:39,176 basehttp 89281 139147511576128 "OPTIONS /api/author/dashboard/stats/8/ HTTP/1.1" 200 0
+WARNING 2025-07-15 11:39:39,191 basehttp 89281 139147545146944 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-15 11:39:39,240 basehttp 89281 139147545146944 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-15 11:48:10,037 basehttp 89281 139147511576128 "GET /admin/liveblog/liveblog/ HTTP/1.1" 200 14284
+INFO 2025-07-15 11:57:48,512 basehttp 89281 139147511576128 "GET /admin/liveblog/liveblog/ HTTP/1.1" 200 14284
+INFO 2025-07-15 11:57:48,549 basehttp 89281 139147511576128 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-15 11:58:04,904 autoreload 93924 131515888369664 Watching for file changes with StatReloader
+WARNING 2025-07-16 04:33:31,367 basehttp 93924 131515723806272 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 04:33:31,430 basehttp 93924 131515723806272 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-16 04:37:06,140 basehttp 93924 131515723806272 "GET /admin/liveblog/liveblog/ HTTP/1.1" 200 14284
+INFO 2025-07-16 04:37:06,172 basehttp 93924 131515715413568 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,173 basehttp 93924 131515723806272 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,174 basehttp 93924 131515704923712 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,177 basehttp 93924 131515696531008 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,182 basehttp 93924 131515715413568 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,185 basehttp 93924 131515688138304 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,186 basehttp 93924 131515704923712 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,189 basehttp 93924 131515688138304 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,189 basehttp 93924 131515696531008 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,202 basehttp 93924 131515679745600 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-16 04:37:06,205 basehttp 93924 131515679745600 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,215 basehttp 93924 131515723806272 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,223 basehttp 93924 131515715413568 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,228 basehttp 93924 131515704923712 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,237 basehttp 93924 131515688138304 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,242 basehttp 93924 131515696531008 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,286 basehttp 93924 131515688138304 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,289 basehttp 93924 131515715413568 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,295 basehttp 93924 131515679745600 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,297 basehttp 93924 131515704923712 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,297 basehttp 93924 131515696531008 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-16 04:37:06,294 basehttp 93924 131515723806272 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-07-16 05:46:54,151 basehttp 93924 131515696531008 "GET /admin/liveblog/liveblog/ HTTP/1.1" 200 14284
+INFO 2025-07-16 05:46:54,234 basehttp 93924 131515696531008 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-16 05:47:07,886 basehttp 93924 131515704923712 "OPTIONS /api/author/dashboard/stats/8/ HTTP/1.1" 200 0
+INFO 2025-07-16 05:47:07,898 basehttp 93924 131515679745600 "OPTIONS /api/author/dashboard/stats/8/ HTTP/1.1" 200 0
+WARNING 2025-07-16 05:47:07,907 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:07,958 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-16 05:47:09,762 basehttp 93924 131515704923712 "OPTIONS /api/health-check/ HTTP/1.1" 200 0
+INFO 2025-07-16 05:47:09,767 basehttp 93924 131515679745600 "OPTIONS /api/health-check/ HTTP/1.1" 200 0
+INFO 2025-07-16 05:47:09,770 basehttp 93924 131515704923712 "GET /api/health-check/ HTTP/1.1" 200 56
+INFO 2025-07-16 05:47:09,824 basehttp 93924 131515679745600 "OPTIONS /api/post/test/ HTTP/1.1" 200 0
+INFO 2025-07-16 05:47:09,825 basehttp 93924 131515704923712 "OPTIONS /api/post/test/ HTTP/1.1" 200 0
+WARNING 2025-07-16 05:47:09,846 basehttp 93924 131515679745600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:09,892 basehttp 93924 131515704923712 "GET /api/post/test/ HTTP/1.1" 401 183
+INFO 2025-07-16 05:47:09,900 basehttp 93924 131515679745600 "OPTIONS /api/post/list/ HTTP/1.1" 200 0
+INFO 2025-07-16 05:47:09,941 basehttp 93924 131515704923712 "OPTIONS /api/post/list/ HTTP/1.1" 200 0
+WARNING 2025-07-16 05:47:09,947 basehttp 93924 131515679745600 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:09,993 basehttp 93924 131515704923712 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:14,394 basehttp 93924 131515704923712 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:14,402 basehttp 93924 131515679745600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:14,415 basehttp 93924 131515679745600 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:14,460 basehttp 93924 131515704923712 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:16,470 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:16,489 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:31,298 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:31,325 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:33,345 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:33,354 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:40,729 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:40,746 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:42,486 basehttp 93924 131515704923712 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:42,496 basehttp 93924 131515679745600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:42,509 basehttp 93924 131515679745600 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:42,556 basehttp 93924 131515704923712 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:45,178 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:45,196 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:49,159 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:49,177 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 05:47:51,395 basehttp 93924 131515704923712 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:51,402 basehttp 93924 131515679745600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:51,412 basehttp 93924 131515679745600 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 05:47:51,456 basehttp 93924 131515704923712 "GET /api/post/list/ HTTP/1.1" 401 183
+INFO 2025-07-16 06:04:43,401 basehttp 93924 131515704923712 "GET /api/health-check/ HTTP/1.1" 200 56
+WARNING 2025-07-16 06:04:43,417 basehttp 93924 131515704923712 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 06:04:43,466 basehttp 93924 131515704923712 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 06:04:43,467 basehttp 93924 131515679745600 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 06:04:43,514 basehttp 93924 131515679745600 "GET /api/post/list/ HTTP/1.1" 401 183
+INFO 2025-07-16 06:04:46,888 basehttp 93924 131515679745600 "GET /api/post/test/ HTTP/1.1" 200 59
+INFO 2025-07-16 06:04:46,900 basehttp 93924 131515679745600 "GET /api/post/list/ HTTP/1.1" 200 2
+INFO 2025-07-16 06:04:52,461 basehttp 93924 131515679745600 "OPTIONS /api/users/login/ HTTP/1.1" 200 0
+INFO 2025-07-16 06:04:52,974 basehttp 93924 131515679745600 "POST /api/users/login/ HTTP/1.1" 200 632
+WARNING 2025-07-16 06:04:53,096 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:04:53,119 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:05:00,740 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:05:00,784 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:05:04,766 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:05:04,779 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:06:33,858 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:06:33,879 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:06:38,709 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:06:38,744 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:07:35,192 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:07:35,211 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:07:49,594 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:07:49,617 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-16 06:07:55,411 basehttp 93924 131515679745600 "OPTIONS /api/author/dashboard/post-list/8/ HTTP/1.1" 200 0
+INFO 2025-07-16 06:07:55,414 basehttp 93924 131515704923712 "OPTIONS /api/author/dashboard/post-list/8/ HTTP/1.1" 200 0
+WARNING 2025-07-16 06:07:55,435 basehttp 93924 131515679745600 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 2894
+WARNING 2025-07-16 06:07:55,486 basehttp 93924 131515679745600 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 2894
+WARNING 2025-07-16 06:07:57,973 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:07:57,985 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-16 06:07:59,768 basehttp 93924 131515704923712 "OPTIONS /api/author/dashboard/comment-list/ HTTP/1.1" 200 0
+INFO 2025-07-16 06:07:59,768 basehttp 93924 131515679745600 "OPTIONS /api/author/dashboard/comment-list/ HTTP/1.1" 200 0
+WARNING 2025-07-16 06:07:59,795 basehttp 93924 131515679745600 "GET /api/author/dashboard/comment-list/ HTTP/1.1" 404 2897
+WARNING 2025-07-16 06:07:59,847 basehttp 93924 131515679745600 "GET /api/author/dashboard/comment-list/ HTTP/1.1" 404 2897
+WARNING 2025-07-16 06:08:02,107 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:08:02,130 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:08:06,459 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:08:06,486 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:08:32,640 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:08:32,655 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:08:48,581 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:08:48,597 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-16 06:08:55,040 basehttp 93924 131515704923712 "OPTIONS /api/post/category/list/ HTTP/1.1" 200 0
+INFO 2025-07-16 06:08:55,043 basehttp 93924 131515679745600 "OPTIONS /api/post/category/list/ HTTP/1.1" 200 0
+INFO 2025-07-16 06:08:55,087 basehttp 93924 131515679745600 "GET /api/post/category/list/ HTTP/1.1" 200 52
+WARNING 2025-07-16 06:11:03,656 basehttp 93924 131515679745600 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 2894
+WARNING 2025-07-16 06:11:03,672 basehttp 93924 131515679745600 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 2894
+INFO 2025-07-16 06:14:50,204 basehttp 93924 131515679745600 "GET /api/health-check/ HTTP/1.1" 200 56
+INFO 2025-07-16 06:14:50,219 basehttp 93924 131515679745600 "GET /api/post/test/ HTTP/1.1" 200 59
+INFO 2025-07-16 06:14:50,267 basehttp 93924 131515679745600 "GET /api/post/list/ HTTP/1.1" 200 2
+WARNING 2025-07-16 06:15:00,981 basehttp 93924 131515679745600 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 2894
+WARNING 2025-07-16 06:15:01,002 basehttp 93924 131515679745600 "GET /api/author/dashboard/post-list/8/ HTTP/1.1" 404 2894
+WARNING 2025-07-16 06:16:25,991 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:16:26,007 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:16:29,465 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:16:29,486 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-16 06:16:44,339 basehttp 93924 131515679745600 "POST /api/users/login/ HTTP/1.1" 200 632
+WARNING 2025-07-16 06:16:44,460 basehttp 93924 131515679745600 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:16:44,472 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:16:55,207 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:16:55,231 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:18:08,104 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:18:08,125 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:18:08,935 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:18:08,947 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:18:10,935 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:18:10,974 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:18:21,870 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+WARNING 2025-07-16 06:18:21,884 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/8/ HTTP/1.1" 404 2882
+INFO 2025-07-16 06:21:26,670 basehttp 93924 131515704923712 "OPTIONS /api/author/dashboard/stats/undefined/ HTTP/1.1" 200 0
+WARNING 2025-07-16 06:21:26,691 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 06:21:26,743 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 06:21:32,066 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 06:21:32,085 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 06:22:13,326 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 06:22:13,341 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+INFO 2025-07-16 06:28:21,866 basehttp 93924 131515704923712 "GET /api/health-check/ HTTP/1.1" 200 56
+INFO 2025-07-16 06:28:21,954 basehttp 93924 131515704923712 "GET /api/post/test/ HTTP/1.1" 200 59
+INFO 2025-07-16 06:28:22,033 basehttp 93924 131515704923712 "GET /api/post/list/ HTTP/1.1" 200 2
+INFO 2025-07-16 06:31:55,060 basehttp 93924 131515704923712 "OPTIONS /api/author/dashboard/post-list/undefined/ HTTP/1.1" 200 0
+INFO 2025-07-16 06:31:55,062 basehttp 93924 131515679745600 "OPTIONS /api/author/dashboard/post-list/undefined/ HTTP/1.1" 200 0
+WARNING 2025-07-16 06:31:55,077 basehttp 93924 131515704923712 "GET /api/author/dashboard/post-list/undefined/ HTTP/1.1" 404 2918
+WARNING 2025-07-16 06:31:55,129 basehttp 93924 131515704923712 "GET /api/author/dashboard/post-list/undefined/ HTTP/1.1" 404 2918
+WARNING 2025-07-16 06:32:01,000 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 06:32:01,014 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 06:32:42,108 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 06:32:42,129 basehttp 93924 131515704923712 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 06:35:11,518 basehttp 93924 131515704923712 "GET /api/v1/blog/category/list/ HTTP/1.1" 404 2873
+WARNING 2025-07-16 06:35:11,530 basehttp 93924 131515679745600 "GET /api/v1/blog/category/list/ HTTP/1.1" 404 2873
+INFO 2025-07-16 06:36:12,763 basehttp 93924 131515679745600 "OPTIONS /api/v1/blog/post/create/ HTTP/1.1" 200 0
+WARNING 2025-07-16 06:36:12,778 basehttp 93924 131515679745600 "POST /api/v1/blog/post/create/ HTTP/1.1" 404 2868
+INFO 2025-07-16 06:38:35,304 autoreload 110569 138025518559232 Watching for file changes with StatReloader
+INFO 2025-07-16 06:38:39,659 basehttp 110569 138025350723136 "GET /api/health-check/ HTTP/1.1" 200 56
+INFO 2025-07-16 06:38:39,716 basehttp 110569 138025350723136 "GET /api/post/test/ HTTP/1.1" 200 59
+INFO 2025-07-16 06:38:39,768 basehttp 110569 138025350723136 "GET /api/post/list/ HTTP/1.1" 200 2
+WARNING 2025-07-16 06:38:43,060 basehttp 110569 138025350723136 "GET /api/v1/blog/category/list/ HTTP/1.1" 404 2873
+WARNING 2025-07-16 06:38:43,080 basehttp 110569 138025350723136 "GET /api/v1/blog/category/list/ HTTP/1.1" 404 2873
+WARNING 2025-07-16 06:39:15,682 basehttp 110569 138025350723136 "GET /api/v1/blog/category/list/ HTTP/1.1" 404 2873
+INFO 2025-07-16 06:40:52,144 autoreload 110664 137414833770496 Watching for file changes with StatReloader
+INFO 2025-07-16 06:40:56,300 basehttp 110664 137414737655360 "GET /api/post/category/list/ HTTP/1.1" 200 52
+WARNING 2025-07-16 06:41:31,395 basehttp 110664 137414737655360 "GET /api/v1/blog/category/list/ HTTP/1.1" 404 2873
+INFO 2025-07-16 06:43:13,345 basehttp 110664 137414737655360 "GET /api/post/category/list/ HTTP/1.1" 200 52
+INFO 2025-07-16 06:44:29,014 basehttp 110664 137414737655360 "GET /api/post/category/list/ HTTP/1.1" 200 52
+INFO 2025-07-16 06:48:02,379 basehttp 110664 137414737655360 "OPTIONS /api/post/create/ HTTP/1.1" 200 0
+WARNING 2025-07-16 06:48:02,404 basehttp 110664 137414737655360 "POST /api/post/create/ HTTP/1.1" 404 4163
+INFO 2025-07-16 06:48:07,429 basehttp 110664 137414737655360 "GET /api/post/category/list/ HTTP/1.1" 200 52
+WARNING 2025-07-16 06:48:11,060 basehttp 110664 137414737655360 "POST /api/post/create/ HTTP/1.1" 404 4163
+INFO 2025-07-16 06:49:38,268 basehttp 110664 137414737655360 "OPTIONS /api/post/author/dashboard/post-create/ HTTP/1.1" 200 0
+WARNING 2025-07-16 06:49:38,333 basehttp 110664 137414737655360 "POST /api/post/author/dashboard/post-create/ HTTP/1.1" 400 58
+WARNING 2025-07-16 06:50:27,180 basehttp 110664 137414737655360 "POST /api/post/author/dashboard/post-create/ HTTP/1.1" 400 58
+WARNING 2025-07-16 06:50:43,255 basehttp 110664 137414737655360 "POST /api/post/author/dashboard/post-create/ HTTP/1.1" 400 58
+WARNING 2025-07-16 06:50:59,116 basehttp 110664 137414737655360 "POST /api/post/author/dashboard/post-create/ HTTP/1.1" 400 58
+INFO 2025-07-16 06:53:32,924 basehttp 110664 137414737655360 "GET /api/health-check/ HTTP/1.1" 200 56
+INFO 2025-07-16 06:53:32,969 basehttp 110664 137414737655360 "GET /api/post/test/ HTTP/1.1" 200 59
+INFO 2025-07-16 06:53:33,053 basehttp 110664 137414737655360 "GET /api/post/list/ HTTP/1.1" 200 2
+WARNING 2025-07-16 06:54:20,766 basehttp 110664 137414737655360 "POST /api/post/author/dashboard/post-create/ HTTP/1.1" 400 125
+WARNING 2025-07-16 06:55:18,603 basehttp 110664 137414737655360 "POST /api/post/author/dashboard/post-create/ HTTP/1.1" 400 107
+WARNING 2025-07-16 06:55:30,079 basehttp 110664 137414737655360 "POST /api/post/author/dashboard/post-create/ HTTP/1.1" 400 107
+INFO 2025-07-16 06:59:32,232 autoreload 111564 139796572975104 Watching for file changes with StatReloader
+WARNING 2025-07-16 07:00:24,406 basehttp 111564 139796477376064 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 07:00:24,417 basehttp 111564 139796477376064 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+INFO 2025-07-16 07:09:21,919 autoreload 111564 139796572975104 /home/neosoft/Desktop/liveblog/liveblogproject/realtime/models.py changed, reloading.
+INFO 2025-07-16 07:09:22,565 autoreload 111899 131011036127232 Watching for file changes with StatReloader
+INFO 2025-07-16 07:10:25,041 autoreload 111899 131011036127232 /home/neosoft/Desktop/liveblog/liveblogproject/blog/admin.py changed, reloading.
+INFO 2025-07-16 07:10:25,622 autoreload 111968 126647060627456 Watching for file changes with StatReloader
+INFO 2025-07-16 07:10:44,057 autoreload 111968 126647060627456 /home/neosoft/Desktop/liveblog/liveblogproject/blog/admin.py changed, reloading.
+INFO 2025-07-16 07:10:44,655 autoreload 111982 124632266735616 Watching for file changes with StatReloader
+INFO 2025-07-16 07:19:28,046 autoreload 111982 124632266735616 /home/neosoft/Desktop/liveblog/liveblogproject/realtime/models.py changed, reloading.
+INFO 2025-07-16 07:19:28,742 autoreload 112261 129039443226624 Watching for file changes with StatReloader
+INFO 2025-07-16 07:31:31,440 autoreload 112261 129039443226624 /home/neosoft/Desktop/liveblog/liveblogproject/realtime/models.py changed, reloading.
+INFO 2025-07-16 07:31:32,531 autoreload 112696 129239335936000 Watching for file changes with StatReloader
+INFO 2025-07-16 07:34:17,630 autoreload 112763 132982332170240 Watching for file changes with StatReloader
+INFO 2025-07-16 07:35:43,810 autoreload 112763 132982332170240 /home/neosoft/Desktop/liveblog/liveblogproject/realtime/admin.py changed, reloading.
+INFO 2025-07-16 07:35:44,503 autoreload 112851 133408579358720 Watching for file changes with StatReloader
+INFO 2025-07-16 07:37:20,813 autoreload 112851 133408579358720 /home/neosoft/Desktop/liveblog/liveblogproject/users/admin.py changed, reloading.
+INFO 2025-07-16 07:37:21,449 autoreload 112900 137832222601216 Watching for file changes with StatReloader
+INFO 2025-07-16 07:37:42,563 autoreload 112900 137832222601216 /home/neosoft/Desktop/liveblog/liveblogproject/blog/admin.py changed, reloading.
+INFO 2025-07-16 07:37:43,203 autoreload 112930 138414601457664 Watching for file changes with StatReloader
+INFO 2025-07-16 07:38:01,663 autoreload 112941 126703635357696 Watching for file changes with StatReloader
+INFO 2025-07-16 07:42:15,044 autoreload 112941 126703635357696 /home/neosoft/Desktop/liveblog/liveblogproject/blog/models.py changed, reloading.
+INFO 2025-07-16 07:42:15,703 autoreload 113131 127083432968192 Watching for file changes with StatReloader
+INFO 2025-07-16 07:42:34,854 autoreload 113131 127083432968192 /home/neosoft/Desktop/liveblog/liveblogproject/blog/admin.py changed, reloading.
+INFO 2025-07-16 07:42:35,508 autoreload 113193 127527187177472 Watching for file changes with StatReloader
+INFO 2025-07-16 07:42:47,569 autoreload 113220 124576932806656 Watching for file changes with StatReloader
+INFO 2025-07-16 07:43:20,106 autoreload 113288 124693756497920 Watching for file changes with StatReloader
+INFO 2025-07-16 07:43:25,332 autoreload 113309 134386127065088 Watching for file changes with StatReloader
+INFO 2025-07-16 07:45:11,872 basehttp 113309 134385962579520 "GET /api/health-check/ HTTP/1.1" 200 56
+WARNING 2025-07-16 07:45:11,903 basehttp 113309 134385962579520 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 07:45:11,961 basehttp 113309 134385953138240 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 07:45:11,985 basehttp 113309 134385953138240 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 07:45:12,031 basehttp 113309 134385962579520 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 07:45:25,033 basehttp 113309 134385962579520 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 07:45:25,040 basehttp 113309 134385953138240 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 07:45:25,069 basehttp 113309 134385953138240 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 07:45:25,111 basehttp 113309 134385962579520 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 07:45:33,010 basehttp 113309 134385962579520 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 07:45:33,028 basehttp 113309 134385953138240 "GET /api/author/dashboard/stats/undefined/ HTTP/1.1" 404 2906
+WARNING 2025-07-16 07:45:37,438 basehttp 113309 134385953138240 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 07:45:37,450 basehttp 113309 134385962579520 "GET /api/post/test/ HTTP/1.1" 401 183
+WARNING 2025-07-16 07:45:37,459 basehttp 113309 134385953138240 "GET /api/post/list/ HTTP/1.1" 401 183
+WARNING 2025-07-16 07:45:37,503 basehttp 113309 134385962579520 "GET /api/post/list/ HTTP/1.1" 401 183
+INFO 2025-07-16 07:46:31,371 basehttp 113309 134385943696960 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-07-16 07:46:31,406 basehttp 113309 134385943696960 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+INFO 2025-07-16 07:46:31,504 basehttp 113309 134385943696960 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-07-16 07:46:31,522 basehttp 113309 134385917470272 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-07-16 07:46:31,523 basehttp 113309 134385935304256 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-07-16 07:46:31,525 basehttp 113309 134385943696960 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-07-16 07:46:31,527 basehttp 113309 134385925862976 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-07-16 07:46:31,528 basehttp 113309 134385558873664 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-07-16 07:46:31,530 basehttp 113309 134385567266368 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+WARNING 2025-07-16 07:46:31,605 basehttp 113309 134385943696960 "GET /favicon.ico HTTP/1.1" 404 2828
+INFO 2025-07-16 07:46:40,772 basehttp 113309 134385943696960 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-07-16 07:46:40,818 basehttp 113309 134385943696960 "GET /admin/ HTTP/1.1" 200 11383
+INFO 2025-07-16 07:46:40,894 basehttp 113309 134385943696960 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-07-16 07:46:40,943 basehttp 113309 134385943696960 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-07-16 07:46:40,944 basehttp 113309 134385567266368 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-07-16 07:46:49,890 basehttp 113309 134385943696960 "GET /admin/liveblog/liveblog/add/ HTTP/1.1" 200 17453
+INFO 2025-07-16 07:46:49,924 basehttp 113309 134385943696960 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2025-07-16 07:46:49,951 basehttp 113309 134385935304256 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-07-16 07:46:49,959 basehttp 113309 134385925862976 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-07-16 07:46:49,961 basehttp 113309 134385917470272 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-07-16 07:46:49,967 basehttp 113309 134385558873664 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-07-16 07:46:49,976 basehttp 113309 134385935304256 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-07-16 07:46:49,984 basehttp 113309 134385925862976 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-07-16 07:46:49,985 basehttp 113309 134385943696960 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-07-16 07:46:49,987 basehttp 113309 134385917470272 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-07-16 07:46:49,997 basehttp 113309 134385558873664 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-07-16 07:46:50,007 basehttp 113309 134385917470272 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2025-07-16 07:46:50,008 basehttp 113309 134385567266368 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-16 07:46:50,012 basehttp 113309 134385567266368 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-07-16 07:46:50,060 basehttp 113309 134385917470272 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-07-16 07:46:54,228 basehttp 113309 134385917470272 "GET /admin/ HTTP/1.1" 200 11383
+INFO 2025-07-16 07:46:56,680 basehttp 113309 134385917470272 "GET /admin/users/customuser/add/ HTTP/1.1" 200 14411
+INFO 2025-07-16 07:47:00,791 basehttp 113309 134385917470272 "GET /admin/ HTTP/1.1" 200 11383
+INFO 2025-07-16 07:47:03,134 basehttp 113309 134385917470272 "GET /admin/realtime/userfollow/add/ HTTP/1.1" 200 12314
+INFO 2025-07-16 07:47:03,188 basehttp 113309 134385917470272 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-07-16 07:47:05,442 basehttp 113309 134385917470272 "GET /admin/ HTTP/1.1" 200 11383
+INFO 2025-07-16 07:47:07,514 basehttp 113309 134385917470272 "GET /admin/realtime/reportedcontent/add/ HTTP/1.1" 200 16656
+INFO 2025-07-16 07:47:07,565 basehttp 113309 134385917470272 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2025-07-16 07:47:07,568 basehttp 113309 134385567266368 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-07-16 07:47:07,663 basehttp 113309 134385567266368 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-07-16 07:47:07,666 basehttp 113309 134385917470272 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-07-16 07:47:17,422 basehttp 113309 134385917470272 "GET /admin/ HTTP/1.1" 200 11383
+INFO 2025-07-16 07:47:19,437 basehttp 113309 134385917470272 "GET /admin/realtime/comment/add/ HTTP/1.1" 200 13432
+INFO 2025-07-16 07:47:21,924 basehttp 113309 134385917470272 "GET /admin/ HTTP/1.1" 200 11383
+INFO 2025-07-16 07:48:28,389 basehttp 113309 134385917470272 "GET /admin/ HTTP/1.1" 200 11383
+INFO 2025-07-16 07:52:42,549 basehttp 113309 134385567266368 "GET /admin/liveblog/liveblog/ HTTP/1.1" 200 15443
+INFO 2025-07-16 07:52:42,591 basehttp 113309 134385567266368 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,598 basehttp 113309 134385943696960 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,606 basehttp 113309 134385935304256 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,618 basehttp 113309 134385962579520 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,619 basehttp 113309 134385558873664 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,620 basehttp 113309 134385935304256 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,620 basehttp 113309 134385953138240 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,625 basehttp 113309 134385558873664 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,630 basehttp 113309 134385962579520 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,632 basehttp 113309 134385953138240 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,635 basehttp 113309 134385567266368 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,642 basehttp 113309 134385943696960 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-16 07:52:42,663 basehttp 113309 134385935304256 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,674 basehttp 113309 134385558873664 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,695 basehttp 113309 134385943696960 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,700 basehttp 113309 134385567266368 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,758 basehttp 113309 134385567266368 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,758 basehttp 113309 134385943696960 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,758 basehttp 113309 134385558873664 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,779 basehttp 113309 134385935304256 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,788 basehttp 113309 134385935304256 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:42,797 basehttp 113309 134385953138240 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:52,044 basehttp 113309 134385935304256 "GET /admin/blog/post/add/ HTTP/1.1" 200 19194
+INFO 2025-07-16 07:52:52,073 basehttp 113309 134385935304256 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:52,075 basehttp 113309 134385567266368 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:52,076 basehttp 113309 134385953138240 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-07-16 07:52:52,086 basehttp 113309 134385953138240 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:52,119 basehttp 113309 134385567266368 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-07-16 07:52:52,120 basehttp 113309 134385935304256 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
