@@ -35,7 +35,7 @@ class Post(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='posts')
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='posts')
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='Draft')
-    featured_image = models.ImageField(upload_to='blog/featured_images/', blank=True, null=True)
+    image = models.ImageField(upload_to='blog/featured_images/', blank=True, null=True)
     views = models.PositiveIntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

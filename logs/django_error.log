@@ -586,3 +586,955 @@ Traceback (most recent call last):
   File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 39, in path
     raise ImproperlyConfigured(
 django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path.
+ERROR 2025-07-22 07:54:02,678 log 375578 139470741435968 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+ERROR 2025-07-22 08:11:19,887 log 375578 139470741435968 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+ERROR 2025-07-22 08:14:37,089 log 376367 136773342590528 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+ERROR 2025-07-22 10:02:37,737 log 379054 129045874341440 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+ERROR 2025-07-22 10:04:26,727 log 379188 128956420322880 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+ERROR 2025-07-22 12:38:35,436 log 379188 128956420322880 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+ERROR 2025-07-22 12:49:31,894 log 379188 128956420322880 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+ERROR 2025-07-22 13:28:29,263 log 379188 128956420322880 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+ERROR 2025-07-22 13:38:38,852 log 379188 128956420322880 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+ERROR 2025-07-22 15:42:38,771 log 385386 134734487221824 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+ERROR 2025-07-22 15:52:44,052 log 385680 123535596975680 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "content" of relation "blog_post" does not exist
+LINE 1: ...INTO "blog_post" ("title", "slug", "description", "content",...
+                                                             ^
+
+ERROR 2025-07-22 15:55:28,253 log 385774 124120389908032 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "featured_image" of relation "blog_post" does not exist
+LINE 1: ...", "content", "user_id", "category_id", "status", "featured_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "featured_image" of relation "blog_post" does not exist
+LINE 1: ...", "content", "user_id", "category_id", "status", "featured_...
+                                                             ^
+
+ERROR 2025-07-22 15:57:17,474 log 385985 129226093098560 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "views" of relation "blog_post" does not exist
+LINE 1: ...nt", "user_id", "category_id", "status", "image", "views", "...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "views" of relation "blog_post" does not exist
+LINE 1: ...nt", "user_id", "category_id", "status", "image", "views", "...
+                                                             ^
+
+ERROR 2025-07-22 16:00:57,333 log 386377 134485291038272 Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column "created_at" of relation "blog_post" does not exist
+LINE 1: ...r_id", "category_id", "status", "image", "views", "created_a...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1227, in save_model
+    obj.save()
+  File "/home/neosoft/LiveBlog2/blog/models.py", line 52, in save
+    super().save(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/neosoft/Desktop/liveblog/liveblogproject/env/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column "created_at" of relation "blog_post" does not exist
+LINE 1: ...r_id", "category_id", "status", "image", "views", "created_a...
+                                                             ^
+

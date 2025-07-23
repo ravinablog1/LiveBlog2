@@ -775,3 +775,132 @@ INFO 2025-07-16 07:52:52,076 basehttp 113309 134385953138240 "GET /static/admin/
 INFO 2025-07-16 07:52:52,086 basehttp 113309 134385953138240 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
 INFO 2025-07-16 07:52:52,119 basehttp 113309 134385567266368 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
 INFO 2025-07-16 07:52:52,120 basehttp 113309 134385935304256 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-07-22 07:47:25,297 autoreload 375494 129160774922240 Watching for file changes with StatReloader
+INFO 2025-07-22 07:51:51,653 autoreload 375562 136270094266368 Watching for file changes with StatReloader
+INFO 2025-07-22 07:52:36,959 autoreload 375578 139470909620224 Watching for file changes with StatReloader
+WARNING 2025-07-22 07:52:50,917 basehttp 375578 139470741435968 "GET / HTTP/1.1" 404 2777
+INFO 2025-07-22 07:52:54,587 basehttp 375578 139470741435968 "GET /admin/ HTTP/1.1" 200 11963
+INFO 2025-07-22 07:52:57,672 basehttp 375578 139470741435968 "GET /admin/blog/category/add/ HTTP/1.1" 200 11981
+INFO 2025-07-22 07:53:00,786 basehttp 375578 139470741435968 "GET /admin/blog/post/add/ HTTP/1.1" 200 19319
+INFO 2025-07-22 07:53:02,594 basehttp 375578 139470741435968 "GET /admin/liveblog/liveblog/add/ HTTP/1.1" 200 17496
+INFO 2025-07-22 07:53:04,293 basehttp 375578 139470741435968 "GET /admin/realtime/comment/add/ HTTP/1.1" 200 13432
+INFO 2025-07-22 07:53:05,983 basehttp 375578 139470741435968 "GET /admin/realtime/notification/add/ HTTP/1.1" 200 17218
+INFO 2025-07-22 07:53:07,343 basehttp 375578 139470741435968 "GET /admin/realtime/postfollow/add/ HTTP/1.1" 200 12277
+INFO 2025-07-22 07:53:09,000 basehttp 375578 139470741435968 "GET /admin/realtime/postrating/add/ HTTP/1.1" 200 13106
+INFO 2025-07-22 07:53:10,381 basehttp 375578 139470741435968 "GET /admin/realtime/reportedcontent/add/ HTTP/1.1" 200 16656
+INFO 2025-07-22 07:53:11,900 basehttp 375578 139470741435968 "GET /admin/realtime/userfollow/add/ HTTP/1.1" 200 12314
+INFO 2025-07-22 07:53:14,591 basehttp 375578 139470741435968 "GET /admin/blog/category/add/ HTTP/1.1" 200 11981
+INFO 2025-07-22 07:53:24,770 basehttp 375578 139470741435968 "POST /admin/blog/category/add/ HTTP/1.1" 302 0
+INFO 2025-07-22 07:53:24,879 basehttp 375578 139470741435968 "GET /admin/blog/category/ HTTP/1.1" 200 13537
+INFO 2025-07-22 07:53:28,020 basehttp 375578 139470741435968 "GET /admin/blog/post/add/ HTTP/1.1" 200 19360
+ERROR 2025-07-22 07:54:02,681 basehttp 375578 139470741435968 "POST /admin/blog/post/add/ HTTP/1.1" 500 202773
+INFO 2025-07-22 07:58:43,766 basehttp 375578 139470741435968 "GET /admin/blog/post/add/ HTTP/1.1" 200 19360
+INFO 2025-07-22 07:58:43,792 basehttp 375578 139470741435968 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2025-07-22 08:11:19,889 basehttp 375578 139470741435968 "POST /admin/blog/post/add/ HTTP/1.1" 500 202843
+INFO 2025-07-22 08:12:53,495 autoreload 376347 134850246004736 Watching for file changes with StatReloader
+INFO 2025-07-22 08:13:49,318 autoreload 376367 136773441105920 Watching for file changes with StatReloader
+INFO 2025-07-22 08:14:01,302 basehttp 376367 136773342590528 "GET /admin/blog/post/add/ HTTP/1.1" 200 19360
+INFO 2025-07-22 08:14:01,334 basehttp 376367 136773342590528 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2025-07-22 08:14:37,092 basehttp 376367 136773342590528 "POST /admin/blog/post/add/ HTTP/1.1" 500 202518
+INFO 2025-07-22 10:01:41,773 autoreload 379054 129045973323776 Watching for file changes with StatReloader
+INFO 2025-07-22 10:01:46,564 basehttp 379054 129045874341440 "GET /admin/blog/post/add/ HTTP/1.1" 200 19360
+INFO 2025-07-22 10:01:46,610 basehttp 379054 129045874341440 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2025-07-22 10:02:37,740 basehttp 379054 129045874341440 "POST /admin/blog/post/add/ HTTP/1.1" 500 202863
+INFO 2025-07-22 10:03:45,637 autoreload 379188 128956519264256 Watching for file changes with StatReloader
+INFO 2025-07-22 10:03:53,257 basehttp 379188 128956420322880 "GET /admin/blog/post/add/ HTTP/1.1" 200 19360
+ERROR 2025-07-22 10:04:26,731 basehttp 379188 128956420322880 "POST /admin/blog/post/add/ HTTP/1.1" 500 202958
+INFO 2025-07-22 10:04:29,932 basehttp 379188 128956420322880 "GET /admin/blog/post/add/ HTTP/1.1" 200 19360
+INFO 2025-07-22 10:04:51,068 basehttp 379188 128956420322880 "GET /admin/realtime/comment/add/ HTTP/1.1" 200 13432
+INFO 2025-07-22 10:04:53,299 basehttp 379188 128956420322880 "GET /admin/blog/post/add/ HTTP/1.1" 200 19360
+ERROR 2025-07-22 12:38:35,437 basehttp 379188 128956420322880 "POST /admin/blog/post/add/ HTTP/1.1" 500 202972
+INFO 2025-07-22 12:38:38,670 basehttp 379188 128956420322880 "GET /admin/blog/post/add/ HTTP/1.1" 200 19360
+ERROR 2025-07-22 12:49:31,895 basehttp 379188 128956420322880 "POST /admin/blog/post/add/ HTTP/1.1" 500 202941
+ERROR 2025-07-22 13:28:29,266 basehttp 379188 128956420322880 "POST /admin/blog/post/add/ HTTP/1.1" 500 202941
+ERROR 2025-07-22 13:38:38,853 basehttp 379188 128956420322880 "POST /admin/blog/post/add/ HTTP/1.1" 500 202941
+INFO 2025-07-22 15:42:11,510 autoreload 385386 134734585712640 Watching for file changes with StatReloader
+INFO 2025-07-22 15:42:15,466 basehttp 385386 134734487221824 "GET /admin/blog/post/add/ HTTP/1.1" 200 19360
+INFO 2025-07-22 15:42:15,508 basehttp 385386 134734487221824 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2025-07-22 15:42:38,774 basehttp 385386 134734487221824 "POST /admin/blog/post/add/ HTTP/1.1" 500 202621
+INFO 2025-07-22 15:47:27,204 autoreload 385604 126762738921472 Watching for file changes with StatReloader
+INFO 2025-07-22 15:51:25,020 autoreload 385680 123535763750912 Watching for file changes with StatReloader
+INFO 2025-07-22 15:51:31,375 basehttp 385680 123535596975680 "GET /admin/blog/post/add/ HTTP/1.1" 200 19360
+INFO 2025-07-22 15:52:10,173 basehttp 385680 123535596975680 "POST /admin/blog/post/add/ HTTP/1.1" 200 19638
+ERROR 2025-07-22 15:52:44,055 basehttp 385680 123535596975680 "POST /admin/blog/post/add/ HTTP/1.1" 500 202838
+INFO 2025-07-22 15:54:43,990 autoreload 385774 124120558051328 Watching for file changes with StatReloader
+INFO 2025-07-22 15:54:51,027 basehttp 385774 124120389908032 "GET /admin/blog/post/add/ HTTP/1.1" 200 19360
+INFO 2025-07-22 15:54:51,052 basehttp 385774 124120389908032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2025-07-22 15:55:28,257 basehttp 385774 124120389908032 "POST /admin/blog/post/add/ HTTP/1.1" 500 202970
+INFO 2025-07-22 15:56:33,944 autoreload 385774 124120558051328 /home/neosoft/LiveBlog2/blog/models.py changed, reloading.
+INFO 2025-07-22 15:56:34,555 autoreload 385954 134509657563136 Watching for file changes with StatReloader
+INFO 2025-07-22 15:56:40,203 autoreload 385954 134509657563136 /home/neosoft/LiveBlog2/blog/serializers.py changed, reloading.
+INFO 2025-07-22 15:56:40,865 autoreload 385985 129226259587072 Watching for file changes with StatReloader
+INFO 2025-07-22 15:56:49,769 basehttp 385985 129226093098560 "GET /admin/blog/post/add/ HTTP/1.1" 200 19315
+ERROR 2025-07-22 15:57:17,477 basehttp 385985 129226093098560 "POST /admin/blog/post/add/ HTTP/1.1" 500 202602
+INFO 2025-07-22 15:58:07,174 autoreload 385985 129226259587072 /home/neosoft/LiveBlog2/blog/serializers.py changed, reloading.
+INFO 2025-07-22 15:58:07,962 autoreload 386071 130933309222912 Watching for file changes with StatReloader
+INFO 2025-07-22 15:58:14,737 autoreload 386071 130933309222912 /home/neosoft/LiveBlog2/blog/models.py changed, reloading.
+INFO 2025-07-22 15:58:15,542 autoreload 386102 124069133258752 Watching for file changes with StatReloader
+INFO 2025-07-22 15:58:39,651 autoreload 386102 124069133258752 /home/neosoft/LiveBlog2/blog/models.py changed, reloading.
+INFO 2025-07-22 15:58:40,551 autoreload 386161 129022160928768 Watching for file changes with StatReloader
+INFO 2025-07-22 15:58:47,257 autoreload 386161 129022160928768 /home/neosoft/LiveBlog2/blog/serializers.py changed, reloading.
+INFO 2025-07-22 15:58:48,111 autoreload 386199 125414017892352 Watching for file changes with StatReloader
+INFO 2025-07-22 15:58:55,988 autoreload 386199 125414017892352 /home/neosoft/LiveBlog2/blog/models.py changed, reloading.
+INFO 2025-07-22 15:58:56,832 autoreload 386231 124243289362432 Watching for file changes with StatReloader
+INFO 2025-07-22 15:59:06,503 autoreload 386249 133755942359040 Watching for file changes with StatReloader
+INFO 2025-07-22 15:59:13,070 autoreload 386249 133755942359040 /home/neosoft/LiveBlog2/blog/models.py changed, reloading.
+INFO 2025-07-22 15:59:13,616 autoreload 386276 137073793007616 Watching for file changes with StatReloader
+INFO 2025-07-22 15:59:18,252 autoreload 386276 137073793007616 /home/neosoft/LiveBlog2/blog/serializers.py changed, reloading.
+INFO 2025-07-22 15:59:19,064 autoreload 386309 125207297024000 Watching for file changes with StatReloader
+INFO 2025-07-22 15:59:25,232 autoreload 386321 129950762651648 Watching for file changes with StatReloader
+INFO 2025-07-22 15:59:36,850 basehttp 386321 129950664357440 "GET /admin/blog/post/add/ HTTP/1.1" 200 19315
+INFO 2025-07-22 16:00:24,541 autoreload 386377 134485463117824 Watching for file changes with StatReloader
+INFO 2025-07-22 16:00:31,319 basehttp 386377 134485291038272 "GET /admin/blog/post/add/ HTTP/1.1" 200 19315
+ERROR 2025-07-22 16:00:57,336 basehttp 386377 134485291038272 "POST /admin/blog/post/add/ HTTP/1.1" 500 202409
+INFO 2025-07-22 17:15:18,190 autoreload 387288 129208973701120 Watching for file changes with StatReloader
+INFO 2025-07-22 17:15:26,332 basehttp 387288 129208875480640 "GET /admin/blog/post/add/ HTTP/1.1" 302 0
+INFO 2025-07-22 17:15:26,363 basehttp 387288 129208875480640 "GET /admin/login/?next=/admin/blog/post/add/ HTTP/1.1" 200 4205
+INFO 2025-07-22 17:16:49,606 autoreload 387406 135184963010560 Watching for file changes with StatReloader
+INFO 2025-07-22 17:17:01,822 basehttp 387406 135184865293888 "POST /admin/login/?next=/admin/blog/post/add/ HTTP/1.1" 302 0
+INFO 2025-07-22 17:17:01,942 basehttp 387406 135184865293888 "GET /admin/blog/post/add/ HTTP/1.1" 200 18884
+INFO 2025-07-22 17:17:02,024 basehttp 387406 135184865293888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-22 17:18:00,654 basehttp 387406 135184865293888 "GET /admin/blog/category/add/ HTTP/1.1" 200 11981
+INFO 2025-07-22 17:18:06,563 basehttp 387406 135184865293888 "POST /admin/blog/category/add/ HTTP/1.1" 302 0
+INFO 2025-07-22 17:18:06,609 basehttp 387406 135184865293888 "GET /admin/blog/category/ HTTP/1.1" 200 12919
+INFO 2025-07-22 17:18:09,330 basehttp 387406 135184865293888 "GET /admin/blog/post/add/ HTTP/1.1" 200 18925
+INFO 2025-07-22 17:19:42,018 basehttp 387406 135184865293888 "POST /admin/blog/post/add/ HTTP/1.1" 302 0
+INFO 2025-07-22 17:19:42,067 basehttp 387406 135184865293888 "GET /admin/blog/post/ HTTP/1.1" 200 15255
+INFO 2025-07-22 17:19:47,000 basehttp 387406 135184865293888 "GET /admin/blog/post/1/change/ HTTP/1.1" 200 19670
+INFO 2025-07-22 17:19:47,044 basehttp 387406 135184865293888 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 2025-07-22 17:19:52,539 basehttp 387406 135184865293888 "POST /admin/blog/post/1/change/ HTTP/1.1" 302 0
+INFO 2025-07-22 17:19:52,593 basehttp 387406 135184865293888 "GET /admin/blog/post/ HTTP/1.1" 200 15257
+INFO 2025-07-22 17:19:55,272 basehttp 387406 135184865293888 "GET /admin/liveblog/liveblog/add/ HTTP/1.1" 200 17188
+INFO 2025-07-22 17:20:38,125 basehttp 387406 135184865293888 "POST /admin/liveblog/liveblog/add/ HTTP/1.1" 302 0
+INFO 2025-07-22 17:20:38,181 basehttp 387406 135184865293888 "GET /admin/liveblog/liveblog/ HTTP/1.1" 200 15214
+INFO 2025-07-22 17:20:45,723 basehttp 387406 135184865293888 "GET /admin/realtime/comment/add/ HTTP/1.1" 200 13432
+INFO 2025-07-22 17:20:52,359 basehttp 387406 135184865293888 "GET /admin/realtime/postfollow/add/ HTTP/1.1" 200 12277
+INFO 2025-07-22 17:20:53,579 basehttp 387406 135184865293888 "GET /admin/realtime/notification/add/ HTTP/1.1" 200 17218
+INFO 2025-07-22 17:21:05,551 basehttp 387406 135184865293888 "GET /admin/realtime/postrating/add/ HTTP/1.1" 200 13106
+INFO 2025-07-22 17:21:07,469 basehttp 387406 135184865293888 "GET /admin/realtime/reportedcontent/add/ HTTP/1.1" 200 16656
+INFO 2025-07-22 17:21:09,090 basehttp 387406 135184865293888 "GET /admin/realtime/userfollow/add/ HTTP/1.1" 200 12314
+INFO 2025-07-23 04:43:19,360 basehttp 387406 135184865293888 "GET /admin/realtime/userfollow/add/ HTTP/1.1" 200 12314
+INFO 2025-07-23 04:43:19,386 basehttp 387406 135184865293888 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,388 basehttp 387406 135184856901184 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,389 basehttp 387406 135184632510016 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,393 basehttp 387406 135184856901184 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,393 basehttp 387406 135184624117312 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,394 basehttp 387406 135184615724608 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,400 basehttp 387406 135184632510016 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,401 basehttp 387406 135184615724608 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,402 basehttp 387406 135184624117312 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,417 basehttp 387406 135184607331904 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-07-23 04:43:19,420 basehttp 387406 135184607331904 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,429 basehttp 387406 135184865293888 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,434 basehttp 387406 135184856901184 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,442 basehttp 387406 135184632510016 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,446 basehttp 387406 135184624117312 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,446 basehttp 387406 135184615724608 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,491 basehttp 387406 135184615724608 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,496 basehttp 387406 135184632510016 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,496 basehttp 387406 135184624117312 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,501 basehttp 387406 135184856901184 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-07-23 04:43:19,503 basehttp 387406 135184865293888 "GET /static/admin/img/search.svg HTTP/1.1" 304 0

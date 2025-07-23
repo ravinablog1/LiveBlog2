@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'liveblogproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'liveblog',
+        'NAME': 'liveblog1',
         'USER': 'postgres',
         'PASSWORD': 'root',
         'HOST': 'localhost',
